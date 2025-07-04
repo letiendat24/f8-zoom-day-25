@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Danh sách chọn</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Danh sách chọn</h2>
+
+    <!-- Checkbox chính -->
+    <div class="row header">
+      <input type="checkbox" id="checkAll">
+      <label for="checkAll">Chọn tất cả</label>
+    </div>
+
+    <!-- Các checkbox con -->
+    <div class="row">
+      <input type="checkbox" class="child" id="item1">
+      <label for="item1">Mục 1 - Email khuyến mãi</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" class="child" id="item2">
+      <label for="item2">Mục 2 - Thông báo hệ thống</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" class="child" id="item3">
+      <label for="item3">Mục 3 - Tin tức mới</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" class="child" id="item4">
+      <label for="item4">Mục 4 - Cập nhật sản phẩm</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" class="child" id="item5">
+      <label for="item5">Mục 5 - Ưu đãi thành viên</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" class="child" id="item6">
+      <label for="item6">Mục 6 - Gợi ý hôm nay</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" class="child" id="item7">
+      <label for="item7">Mục 7 - Tin tuyển dụng</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" class="child" id="item8">
+      <label for="item8">Mục 8 - Sự kiện sắp tới</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" class="child" id="item9">
+      <label for="item9">Mục 9 - Cảnh báo bảo mật</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" class="child" id="item10">
+      <label for="item10">Mục 10 - Báo cáo tuần</label>
+    </div>
+
+    <!-- Bộ đếm -->
+    <div id="counter">Đã chọn 0 / 10 dòng</div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

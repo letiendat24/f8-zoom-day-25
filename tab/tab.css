@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background: transparent;
+}
+
+.tabs {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.tab-item {
+    padding: 4px 10px;
+    border-bottom:  2px solid transparent;
+}
+
+.tab-item.active {
+    border-color: #ccc;
+}
+
+.tabs .content {
+    margin-top: 20px;
+    display: none;
+}
+
+.tabs .content.active {
+    display: block;
+}
